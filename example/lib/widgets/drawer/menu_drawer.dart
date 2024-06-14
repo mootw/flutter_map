@@ -20,6 +20,7 @@ import 'package:flutter_map_example/pages/overlay_image.dart';
 import 'package:flutter_map_example/pages/plugin_zoombuttons.dart';
 import 'package:flutter_map_example/pages/polygon.dart';
 import 'package:flutter_map_example/pages/polygon_perf_stress.dart';
+import 'package:flutter_map_example/pages/polygon_perf_stress_alt.dart';
 import 'package:flutter_map_example/pages/polyline.dart';
 import 'package:flutter_map_example/pages/polyline_perf_stress.dart';
 import 'package:flutter_map_example/pages/reset_tile_layer.dart';
@@ -147,6 +148,11 @@ class MenuDrawer extends StatelessWidget {
           MenuItemWidget(
             caption: 'Polygon Stress Test',
             routeName: PolygonPerfStressPage.route,
+            currentRoute: currentRoute,
+          ),
+          MenuItemWidget(
+            caption: 'Polygon Stress Test (Alt)',
+            routeName: PolygonPerfStressAltPage.route,
             currentRoute: currentRoute,
           ),
           MenuItemWidget(

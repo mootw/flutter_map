@@ -20,6 +20,7 @@ import 'package:flutter_map_example/pages/overlay_image.dart';
 import 'package:flutter_map_example/pages/plugin_zoombuttons.dart';
 import 'package:flutter_map_example/pages/polygon.dart';
 import 'package:flutter_map_example/pages/polygon_perf_stress.dart';
+import 'package:flutter_map_example/pages/polygon_perf_stress_alt.dart';
 import 'package:flutter_map_example/pages/polyline.dart';
 import 'package:flutter_map_example/pages/polyline_perf_stress.dart';
 import 'package:flutter_map_example/pages/reset_tile_layer.dart';
@@ -68,6 +69,7 @@ class MyApp extends StatelessWidget {
         OverlayImagePage.route: (context) => const OverlayImagePage(),
         PolygonPage.route: (context) => const PolygonPage(),
         PolygonPerfStressPage.route: (context) => const PolygonPerfStressPage(),
+        PolygonPerfStressAltPage.route: (context) => const PolygonPerfStressAltPage(),
         SlidingMapPage.route: (_) => const SlidingMapPage(),
         WMSLayerPage.route: (context) => const WMSLayerPage(),
         CustomCrsPage.route: (context) => const CustomCrsPage(),
